@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Ceramic
+Comment=An ultra-light theme for Linux Mint based on Mint-X.
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Ceramic
+MetacityTheme=Ceramic
+IconTheme=Ceramic
+CursorTheme=default
