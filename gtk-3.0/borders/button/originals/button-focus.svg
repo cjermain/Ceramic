@@ -14,7 +14,7 @@
    height="16"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="button-focus.svg">
   <defs
      id="defs4">
@@ -90,16 +90,16 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="31.678384"
-     inkscape:cx="6.7389479"
-     inkscape:cy="8.7600042"
+     inkscape:cx="6.7537943"
+     inkscape:cy="6.8109748"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:snap-global="true"
-     inkscape:window-width="1212"
-     inkscape:window-height="847"
-     inkscape:window-x="293"
-     inkscape:window-y="225"
+     inkscape:window-width="959"
+     inkscape:window-height="1027"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:snap-bbox="true">
     <inkscape:grid
@@ -128,7 +128,7 @@
      id="layer1"
      transform="translate(0,-1036.3622)">
     <rect
-       style="fill:none;stroke:#9ab87c;stroke-width:1.99999988000000006;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:none;stroke:#84a7cf;stroke-width:1.99999988;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect3757"
        width="14"
        height="14.000017"

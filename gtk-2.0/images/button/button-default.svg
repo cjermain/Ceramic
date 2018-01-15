@@ -14,7 +14,7 @@
    height="16"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="button-default.svg">
   <defs
      id="defs4">
@@ -102,16 +102,16 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="22.4"
-     inkscape:cx="-3.6696429"
-     inkscape:cy="8.1176041"
+     inkscape:cx="7.6473214"
+     inkscape:cy="2.3140327"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:snap-global="false"
-     inkscape:window-width="1212"
-     inkscape:window-height="847"
-     inkscape:window-x="556"
-     inkscape:window-y="135"
+     inkscape:window-width="959"
+     inkscape:window-height="1027"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:snap-bbox="true">
     <inkscape:grid
@@ -140,7 +140,7 @@
      id="layer1"
      transform="translate(0,-1036.3622)">
     <rect
-       style="fill:#accd8a;fill-opacity:1;stroke:none"
+       style="fill:#71a9e3;fill-opacity:1;stroke:none"
        id="rect3777"
        width="15.116072"
        height="15.116089"

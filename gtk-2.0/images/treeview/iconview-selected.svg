@@ -14,7 +14,7 @@
    height="16"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="iconview-selected.svg">
   <defs
      id="defs4">
@@ -42,15 +42,6 @@
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3757"
-       id="linearGradient3763"
-       x1="8"
-       y1="0"
-       x2="8"
-       y2="16"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient3779"
        id="linearGradient3785"
        x1="8"
@@ -68,16 +59,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="31.678384"
-     inkscape:cx="8.0829591"
+     inkscape:cx="3.3636527"
      inkscape:cy="7.5066903"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:snap-bbox="true"
-     inkscape:window-width="1421"
-     inkscape:window-height="798"
-     inkscape:window-x="280"
-     inkscape:window-y="176"
+     inkscape:window-width="959"
+     inkscape:window-height="1027"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:snap-global="false">
     <inkscape:grid
@@ -96,7 +87,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -106,7 +97,7 @@
      id="layer1"
      transform="translate(0,-1036.3622)">
     <rect
-       style="fill:url(#linearGradient3763);fill-opacity:1;stroke:none"
+       style="fill:#2678ce;fill-opacity:1;stroke:none"
        id="rect3755"
        width="16"
        height="16"
