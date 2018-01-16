@@ -1,6 +1,6 @@
 /* Default Color Scheme */
 
-@define-color theme_bg_color #ddd;
+@define-color theme_bg_color #e6e6e6;
 @define-color theme_fg_color #212121;
 @define-color theme_base_color #fff;
 @define-color theme_text_color #212121;

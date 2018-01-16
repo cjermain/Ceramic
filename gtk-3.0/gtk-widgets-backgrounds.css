@@ -144,8 +144,8 @@ GtkSwitch.trough {
 GtkSwitch.trough:active {
     background-color: transparent;
     background-image: linear-gradient(to bottom,
-                            shade(@theme_selected_bg_color, 0.85),
-                            shade(@theme_selected_bg_color, 1.05));
+                            shade(@theme_selected_bg_color, 0.9),
+                            shade(@theme_selected_bg_color, 1.1));
 }
 
 GtkSwitch.trough:insensitive {
