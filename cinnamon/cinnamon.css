@@ -301,7 +301,7 @@ StScrollBar StButton#vhandle:hover
 
 #panel {
     color: #ffffff;
-    font-size: 9pt;
+    font-size: 1em;
     font-weight: normal;
     height: 27px;
     width: 32px;
@@ -713,7 +713,7 @@ StScrollBar StButton#vhandle:hover
 
 .calendar-month-label {
     color: #cccccc;
-    font-size: 7.5pt;
+    font-size: 1em;
     padding-bottom: 8px;
     padding-top: 8px;
     font-weight: bold;
