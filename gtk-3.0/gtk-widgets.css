@@ -888,11 +888,10 @@ GtkGrid:insensitive {
 
 .info {
     background-color: @info_color;
-
 }
 
 .info GtkLabel {
-    color: #ffffff;
+    color: @theme_text_color;
 }
 
 .question {
