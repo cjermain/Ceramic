@@ -14,7 +14,7 @@
    height="16"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="iconview-selected.svg">
   <defs
      id="defs4">
@@ -32,14 +32,23 @@
     <linearGradient
        id="linearGradient3757">
       <stop
-         style="stop-color:#abcc89;stop-opacity:1;"
+         style="stop-color:#5c9dc1;stop-opacity:1;"
          offset="0"
          id="stop3759" />
       <stop
-         style="stop-color:#85a465;stop-opacity:1;"
+         style="stop-color:#7eb9d8;stop-opacity:1;"
          offset="1"
          id="stop3761" />
     </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3757"
+       id="linearGradient3763"
+       x1="8"
+       y1="0"
+       x2="8"
+       y2="16"
+       gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3779"
@@ -59,16 +68,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="31.678384"
-     inkscape:cx="3.3636527"
+     inkscape:cx="1.995856"
      inkscape:cy="7.5066903"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:snap-bbox="true"
-     inkscape:window-width="959"
-     inkscape:window-height="1027"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1421"
+     inkscape:window-height="798"
+     inkscape:window-x="75"
+     inkscape:window-y="74"
      inkscape:window-maximized="0"
      inkscape:snap-global="false">
     <inkscape:grid
@@ -97,7 +106,7 @@
      id="layer1"
      transform="translate(0,-1036.3622)">
     <rect
-       style="fill:#2678ce;fill-opacity:1;stroke:none"
+       style="fill:url(#linearGradient3763);fill-opacity:1;stroke:none"
        id="rect3755"
        width="16"
        height="16"
