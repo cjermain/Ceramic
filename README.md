@@ -9,3 +9,6 @@ The theme can be installed in the `~/.themes` directory for a local user.
 ```
 git clone https://github.com/cjermain/Ceramic.git ~/.themes/Ceramic
 ```
+
+## TODO
+- [ ] Update SVG and PNG images with the selection color.
