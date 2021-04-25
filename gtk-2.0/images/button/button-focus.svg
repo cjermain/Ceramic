@@ -14,7 +14,7 @@
    height="16"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="button-focus.svg">
   <defs
      id="defs4">
@@ -89,17 +89,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="44.8"
-     inkscape:cx="3.2647721"
-     inkscape:cy="7.1413698"
+     inkscape:zoom="31.678384"
+     inkscape:cx="0.88780067"
+     inkscape:cy="8.7600042"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:snap-global="false"
-     inkscape:window-width="959"
-     inkscape:window-height="1027"
-     inkscape:window-x="960"
-     inkscape:window-y="0"
+     inkscape:window-width="1212"
+     inkscape:window-height="847"
+     inkscape:window-x="0"
+     inkscape:window-y="152"
      inkscape:window-maximized="0"
      inkscape:snap-bbox="true">
     <inkscape:grid
@@ -128,7 +128,7 @@
      id="layer1"
      transform="translate(0,-1036.3622)">
     <rect
-       style="fill:none;stroke:#84a7cf;stroke-width:0.49999997;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:none;stroke:#4a90d9;stroke-width:0.49999997000000002;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect3757"
        width="13.895146"
        height="14.208261"
@@ -137,7 +137,7 @@
        rx="3.4735098"
        ry="3.2526119" />
     <rect
-       style="fill:none;stroke:#2678ce;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#3f7895;stroke-width:0.69999999999999996;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect3755"
        width="13"
        height="12.999864"

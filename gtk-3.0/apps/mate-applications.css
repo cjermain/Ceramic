@@ -1,5 +1,5 @@
 @define-color caja_sidebar_bg #505050;
-@define-color caja_sidebar_fg #fff;
+@define-color caja_sidebar_fg #dadada;
 @define-color caja_sidebar_selected_fg #fff;
 
 /****************
@@ -38,11 +38,93 @@ CajaWindow CajaEmblemSidebar GtkViewport {
     border-width: 0px;
 }
 
+.caja-side-pane notebook treeview.view,
+.caja-side-pane notebook textview.view text,
+.caja-side-pane notebook viewport.frame,
+.caja-side-pane notebook widget .vertical {
+    background-color: shade (@caja_sidebar_bg, 1.0);
+    color: @caja_sidebar_fg;
+}
+
+.caja-navigation-window notebook > header {
+    padding: 0px;
+    margin-right: -2px;
+    margin-bottom: -1px;
+}
+
+.caja-navigation-window notebook > header > tabs > tab:checked {
+    background-color: @theme_base_color;
+    margin-bottom: 1px;
+}
+
+/***********
+* Terminal *
+************/
+vte-terminal {
+    -TerminalScreen-background-darkness: 1.0;
+    background-color: #3f3f3f;
+    color: #fff;
+}
+
+/**************
+* Mate-Terminal *
+***************/
+
+window.background.mate-terminal > box.vertical > notebook:not(.frame) > stack > box,
+window.background.csd.mate-terminal > box.vertical > notebook:not(.frame) > stack > box,
+window.background.ssd.mate-terminal > box.vertical > notebook:not(.frame) > stack > box,
+window.background.solid-csd.mate-terminal > box.vertical > notebook:not(.frame) > stack > box {
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    border-color: shade(@border, 1.0);
+    margin-right: 0px;
+}
+
+.mate-terminal notebook > header {
+    padding: 0px;
+    margin-right: -2px;
+}
+
+.mate-terminal notebook > header > tabs > tab:checked {
+    background-color: @theme_base_color;
+}
+
+/****************
+ * Pluma *
+ ****************/
+
+.pluma-window notebook > header {
+    padding: 2px;
+    margin-left: -2px;
+    margin-right: -2px;
+    margin-bottom: -1px;
+    padding-bottom: 0;
+}
+
+.pluma-window notebook > header.top > tabs > tab:checked {
+    border-bottom: transparent;
+    background-color: @theme_base_color;
+}
+
+/****************
+ *  pavu-control  *
+ ****************/
+
+window.background > box.vertical > notebook:not(.frame) > stack > box,
+window.background.csd > box.vertical > notebook:not(.frame) > stack > box,
+window.background.ssd > box.vertical > notebook:not(.frame) > stack > box,
+window.background.solid-csd > box.vertical > notebook:not(.frame) > stack > box {
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    border-color: shade(@border, 1.0);
+    margin-right: 0px;
+}
+
 /****************
  * Mate-Panel *
  ****************/
 
-mintmenu:selected GtkBox {
+#PanelApplet box.mintmenu:selected {
     background-color: @theme_selected_bg_color;
 }
 
@@ -62,18 +144,16 @@ PanelToplevel.background,
     border-image: none;
 }
 
-#PanelApplet .button {
-    margin: 2px;
+#PanelApplet button {
     padding: 3px;
     border-style: solid;
     border-width: 2px;
     border-radius: 3px;
-    background-color: transparent;
+    background-color: @theme_bg_color;
     background-image: none;
 }
 
-#PanelApplet WnckTasklist .button.flat {
-    margin: 2px;
+#PanelApplet wnck-tasklist button.flat {
     padding: 0px 3px 0px 3px;
     border-style: solid;
     border-width: 2px;
@@ -90,9 +170,8 @@ PanelToplevel.background,
                                       alpha(white, 0.01));
 }
 
-#PanelApplet WnckTasklist .button.flat:hover,
-#PanelApplet .button:hover {
-    margin: 2px;
+#PanelApplet wnck-tasklist button.flat:hover,
+#PanelApplet button:hover {
     padding: 0px 3px 0px 3px;
     border-style: solid;
     border-width: 2px;
@@ -109,15 +188,14 @@ PanelToplevel.background,
                                       alpha(white, 0.1));
 }
 
-#PanelApplet WnckTasklist .button.flat:checked:hover,
-#PanelApplet WnckTasklist .button.flat:checked,
-#PanelApplet WnckTasklist .button.flat:active:hover,
-#PanelApplet WnckTasklist .button.flat:active,
-#PanelApplet .button:checked,
-#PanelApplet .button:checked:hover,
-#PanelApplet .button:active,
-#PanelApplet .button:active:hover {
-    margin: 2px;
+#PanelApplet wnck-tasklist button.flat:checked:hover,
+#PanelApplet wnck-tasklist button.flat:checked,
+#PanelApplet wnck-tasklist button.flat:active:hover,
+#PanelApplet wnck-tasklist button.flat:active,
+#PanelApplet button:checked,
+#PanelApplet button:checked:hover,
+#PanelApplet button:active,
+#PanelApplet button:active:hover {
     padding: 0px 3px 0px 3px;
     border-style: solid;
     border-width: 2px;
