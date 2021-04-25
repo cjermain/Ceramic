@@ -7,6 +7,5 @@ This is a light theme for the [Cinnamon Desktop](https://cinnamon-spices.linuxmi
 The theme can be installed in the `~/.themes` directory for a local user.
 
 ```
-mkdir -p ~/.themes
-git clone https://github.com/cjermain/Ceramic.git ~/.themes
+git clone https://github.com/cjermain/Ceramic.git ~/.themes/Ceramic
 ```
